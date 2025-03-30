@@ -9,8 +9,8 @@ const Hero = () => {
         <h1> I am Erik Jensen a junior software developer based in Connecticut, USA.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis accusantium beatae facere exercitationem qui corporis. Suscipit soluta quibusdam voluptates natus debitis! Iure laudantium quaerat voluptatibus odit modi. Possimus, eaque.</p>
         <div className="hero-action">
-            <div className="hero-connect">Connect with me</div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-connect">connect with me</div>
+            <div className="hero-resume">my resume</div>
         </div>
     </div>
   )
