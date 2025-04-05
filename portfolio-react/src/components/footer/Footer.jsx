@@ -19,8 +19,18 @@ const Footer = () => {
         <div className="footer-top-right">
           <div className="footer-email-input">
             <img src={user_icon} alt="" />
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div className="footer-back-to-top">
+            <button>Back to Top</button>
           </div>
         </div>
+      </div>
+      <hr />
+      <div className="footer-bottom">
+        <p className="footer-bottom-left">
+          © Erik Jensen. All rights reserved.
+        </p>
       </div>
     </div>
   );

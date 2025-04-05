@@ -110,6 +110,7 @@
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.3s;
+  font-family: Outfit;
 }
 
 .contact-right button:hover {

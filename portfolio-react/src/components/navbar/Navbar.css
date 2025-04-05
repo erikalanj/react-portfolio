@@ -30,3 +30,20 @@
   max-width: 109px;
   max-height: 57px;
 }
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchorlink {
+  text-decoration: none;
+  color: white;
+}
