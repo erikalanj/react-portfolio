@@ -1,18 +1,20 @@
-import React from 'react';
-import Navbar from './components/navbar/navbar';
-import Hero from './components/hero/Hero';
-import About from './components/about/About';
-import Projects from './components/projects/Projects';
-
-
+import React from "react";
+import Navbar from "./components/navbar/navbar";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Projects/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };
