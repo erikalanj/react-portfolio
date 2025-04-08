@@ -41,9 +41,10 @@
 
 .footer-back-to-top button {
   border: none;
+  margin-bottom: 20px;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #02a152 0.36%, #078798 102.06%);
   font-size: 20px;
   padding: 22px 50px;
   cursor: pointer;
@@ -66,6 +67,10 @@
   display: flex;
   gap: 50px;
   margin-bottom: 50px;
+}
+
+.footer-bottom-left {
+  margin-bottom: 40px;
 }
 
 .footer-email-input:hover {

@@ -4,6 +4,8 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
+import linkedin_logo from "../../assets/linkedin2.svg";
+import github_logo from "../../assets/github.svg";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -56,7 +58,26 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={location_icon} alt="" /> <p>CT, USA</p>
             </div>
-            <div className="contact-detail"></div>
+          </div>
+          <div className="contact-socials">
+            <a
+              href="https://github.com/erikalanj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <img src={github_logo} alt="GitHub" />
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/erik-jensen2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <img src={linkedin_logo} alt="LinkedIn" />
+              <span>LinkedIn</span>
+            </a>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">

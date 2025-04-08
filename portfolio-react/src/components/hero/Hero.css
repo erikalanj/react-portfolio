@@ -16,7 +16,7 @@
   font-weight: 600;
 }
 .hero h1 {
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #02a152 0.36%, #078798 102.06%);
   background-clip: text; /* Clips the background to the text */
   webkit-background-clip: text; /* For Webkit browsers */
   -webkit-text-fill-color: transparent; /*Makes the text transparent to show the gradient*/
@@ -41,7 +41,7 @@
 .hero-connect {
   padding: 25px 45px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #02a152 0.36%, #078798 102.06%);
   cursor: pointer;
 }
 
@@ -57,5 +57,5 @@
 }
 
 .hero-resume:hover {
-  border-color: #b415ff;
+  border-color: #02a152;
 }

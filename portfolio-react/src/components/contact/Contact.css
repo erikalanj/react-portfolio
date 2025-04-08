@@ -37,7 +37,7 @@
 .contact-left h1 {
   font-size: 80px;
   font-weight: 700;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #02a152 0.36%, #078798 102.06%);
   background-clip: text; /* Clips the background to the text */
   webkit-background-clip: text; /* For Webkit browsers */
   -webkit-text-fill-color: transparent; /*Makes the text transparent to show the gradient*/
@@ -104,7 +104,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background: linear-gradient(267deg, #02a152 0.36%, #078798 102.06%);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
@@ -116,4 +116,25 @@
 .contact-right button:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+.contact-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 0px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.05);
 }
