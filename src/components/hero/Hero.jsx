@@ -9,12 +9,12 @@ const Hero = () => {
       <img src={profile_img} alt="" />
       <h1>
         {" "}
-        i am erik jensen, a junior software developer based in connecticut, usa.
+        I am Erik Jensen, a junior software developer based in Connecticut, USA.
       </h1>
       <p>
-        a computer science student based in the northeast driven to create real
-        solutions to real problems. as a dedicated student and community leader,
-        i bring a strong technical foundation into collaborative environments,
+        A computer science student based in the northeast driven to create real
+        solutions to real problems. As a dedicated student and community leader,
+        I bring a strong technical foundation into collaborative environments,
         with a focus on full-stack web development and data analysis.
       </p>
       <div className="hero-action">
