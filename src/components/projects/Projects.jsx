@@ -26,14 +26,8 @@ const Projects = () => {
         })}
       </div>
       <div className="project-showmore">
-        <a
-          href="https://github.com/erikalanj" // Replace with your actual GitHub profile URL
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>show more</p>
-          <img src={arrow_icon} alt="Arrow icon" />
-        </a>
+        <a href="https://github.com/erikalanj">show more</a>
+        <img src={arrow_icon} alt="Arrow icon" />
       </div>
     </div>
   );
