@@ -17,7 +17,7 @@ const Projects = () => {
         })}
       </div>
       <div className="project-showmore">
-        <p>show More</p>
+        <p>show more</p>
         <img src={arror_icon} alt="" />
       </div>
     </div>

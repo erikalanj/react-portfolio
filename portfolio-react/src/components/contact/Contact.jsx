@@ -36,12 +36,12 @@ const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
-        <h1>Get in Touch</h1>
+        <h1>get in touch</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Let's Talk</h1>
+          <h1>let's talk</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
             enim repudiandae, aperiam ab sequi perferendis. Corporis, eum.
@@ -56,7 +56,7 @@ const Contact = () => {
               <img src={call_icon} alt="" /> <p>203-217-2427</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" /> <p>CT, USA</p>
+              <img src={location_icon} alt="" /> <p>ct, usa</p>
             </div>
           </div>
           <div className="contact-socials">
@@ -67,7 +67,7 @@ const Contact = () => {
               className="social-link"
             >
               <img src={github_logo} alt="GitHub" />
-              <span>GitHub</span>
+              <span>github</span>
             </a>
             <a
               href="https://www.linkedin.com/in/erik-jensen2"
@@ -76,23 +76,23 @@ const Contact = () => {
               className="social-link"
             >
               <img src={linkedin_logo} alt="LinkedIn" />
-              <span>LinkedIn</span>
+              <span>linkedin</span>
             </a>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-          <label htmlFor="">Your name</label>
+          <label htmlFor="">your name</label>
           <input type="text" placeholder="Enter your name" name="name" />
-          <label htmlFor="">Your email</label>
+          <label htmlFor="">your email</label>
           <input type="email" placeholder="Enter your email" name="email" />
-          <label htmlFor="">Reach out</label>
+          <label htmlFor="">reach out</label>
           <textarea
             name="message"
             rows="8"
             placeholder="Enter your message"
           ></textarea>
           <button type="submit" className="contact-submit">
-            Submit
+            submit
           </button>
         </form>
       </div>
