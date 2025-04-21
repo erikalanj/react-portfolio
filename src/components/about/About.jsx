@@ -20,19 +20,32 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
-              quis, inventore beatae possimus vitae debitis labore placeat,
-              provident accusamus, quam hic rem. Explicabo dolor eaque,
-              consequuntur suscipit repellendus hic sint!
+              With a strong foundation in computer science and mathematics, I
+              specialize in full-stack web development and data analysis. I’ve
+              led and contributed to collaborative projects using technologies
+              like Python, SQL, and Java, always focusing on secure,
+              maintainable, and user-friendly solutions.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-              perspiciatis facilis aperiam ipsum sint delectus omnis nisi
-              incidunt suscipit libero. Dolore quae aut impedit quo corporis
-              delectus cupiditate alias incidunt.
+              I thrive in team environments and naturally take on leadership
+              roles, drawing from both my technical background and work
+              experience. I’m driven by a passion for solving real-world
+              problems through clean, efficient code and thoughtful design.
             </p>
           </div>
           <div className="about-skills">
+            <div className="about-skill">
+              <p>Java</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Python</p>
+              <hr style={{ width: "55%" }} />
+            </div>
+            <div className="about-skill">
+              <p>SQL</p>
+              <hr style={{ width: "60%" }} />
+            </div>
             <div className="about-skill">
               <p>HTML & CSS</p>
               <hr style={{ width: "50%" }} />
@@ -43,18 +56,6 @@ const About = () => {
             </div>
             <div className="about-skill">
               <p>Typescript</p>
-              <hr style={{ width: "40%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Java</p>
-              <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Python</p>
-              <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p>C</p>
               <hr style={{ width: "40%" }} />
             </div>
           </div>

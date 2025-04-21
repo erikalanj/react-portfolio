@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/pfp.png";
+import resume from "../../assets/resume/resume.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
@@ -18,12 +19,12 @@ const Hero = () => {
         with a focus on full-stack web development and data analysis.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">
-          <AnchorLink className="anchorlink" href="#contact">
-            connect with me
-          </AnchorLink>
-        </div>
-        <div className="hero-resume">my resume</div>
+        <AnchorLink className="anchorlink" href="#contact">
+          <div className="hero-connect">connect with me</div>
+        </AnchorLink>
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          <div className="hero-resume">my resume</div>
+        </a>
       </div>
     </div>
   );

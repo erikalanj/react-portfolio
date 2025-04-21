@@ -50,6 +50,13 @@
   border-radius: 50px;
   border: 2px solid white;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-action a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .hero-connect:hover {

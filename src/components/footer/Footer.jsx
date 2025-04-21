@@ -13,11 +13,9 @@ const Footer = () => {
         </div>
         <div className="footer-top-right">
           <div className="footer-back-to-top">
-            <button>
-              <AnchorLink className="anchorlink" offset={50} href="#home">
-                back to top
-              </AnchorLink>
-            </button>
+            <AnchorLink className="anchorlink" offset={50} href="#home">
+              <button>back to top</button>
+            </AnchorLink>
           </div>
         </div>
       </div>
